@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600|VT323);
+
 body
 {
 	margin: 0;
@@ -252,7 +254,7 @@ img.staff{
 	width:300px;
 }
 
-table.assignments{
+table.projects{
 	margin-left:10em;
 	margin-top:2em;
 	margin-bottom:2em;
@@ -266,7 +268,7 @@ th.assignmetns{
 	color: white;
 }
 
-caption.assignments{
+caption.projects{
 	font-size:100%;
 	color:#f05750;
 	text-align:left;

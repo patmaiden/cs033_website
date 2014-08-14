@@ -1,12 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600|VT323);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 body
 {
 	margin: 0;
 	padding: 0;	
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #333333;
+}
+
+#coursenum, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Shadows Into Light', cursive;
 }
 
 .hidden {
@@ -14,9 +19,9 @@ body
 }
 
 h2.title{
-	font-size:30px;
+	font-size:35px;
     font-weight: 400;
-	color:#f05750;
+	color:#E90079;
 	text-align:center;
 	padding:0;
 	margin-top:10;
@@ -24,9 +29,9 @@ h2.title{
 }
 
 h3{
-	font-size: 30px;
+	font-size: 35px;
     font-weight: 400;
-	color:#f05750;
+	color:#E90079;
 	text-align:left;
 	padding:0;
 	margin-top:15px;
@@ -53,73 +58,72 @@ p.left.box {
 }
 
 .header {
-    height: 55px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
+    height: 75px;
+    background-color: #333333;
 }
-.dropdown a.red.selected {border-left: 5px solid #f05750}
-.dropdown a.red:hover {border-left: 5px solid #f05750}
-.dropdown a.orange.selected {border-left:5px solid #f09141}
-.dropdown a.orange:hover {border-left: 5px solid #f09141}
-.dropdown a.green.selected {border-left: 5px solid #50c850}
-.dropdown a.green:hover {border-left: 5px solid #50c850}
-.dropdown a.aqua.selected {border-left: 5px solid #64f0c1}
-.dropdown a.aqua:hover {border-left: 5px solid #64f0c1}
-.dropdown a.cyan.selected{border-left: 5px solid #64baf0}
-.dropdown a.cyan:hover {border-left: 5px solid #64baf0}
-.dropdown a.blue.selected {border-left: 5px solid #6478e6}
-.dropdown a.blue:hover {border-left: 5px solid #6478e6}
-.dropdown a.purple.selected {border-left: 5px solid #b464dc}
-.dropdown a.purple:hover {border-left: 5px solid #b464dc}
-.dropdown a.pink.selected {border-left: 5px solid #f06495}
-.dropdown a.pink:hover {border-left: 5px solid #f06495}
-.dropdown a.yellow.selected {border-left: 5px solid #FFFF19}
-.dropdown a.yellow:hover {border-left: 5px solid #FFFF19}
+.dropdown a.red.selected {background-color: #E90079;}
+.dropdown a.red:hover {background-color: #E90079;}
+.dropdown a.orange.selected {background-color: #f09141;}
+.dropdown a.orange:hover {background-color: #f09141;}
+.dropdown a.green.selected {background-color: #50c850;}
+.dropdown a.green:hover {background-color: #50c850;}
+.dropdown a.aqua.selected {background-color: #64f0c1;}
+.dropdown a.aqua:hover {background-color: #64f0c1;}
+.dropdown a.cyan.selected{background-color: #64baf0;}
+.dropdown a.cyan:hover {background-color: #64baf0;}
+.dropdown a.blue.selected {background-color: #6478e6;}
+.dropdown a.blue:hover {background-color: #6478e6;}
+.dropdown a.purple.selected {background-color: #b464dc;}
+.dropdown a.purple:hover {background-color: #b464dc;}
+.dropdown a.pink.selected {background-color: #f06495;}
+.dropdown a.pink:hover {background-color: #f06495;}
+.dropdown a.yellow.selected {background-color: #FFFF19; color: #333333 !important;}
+.dropdown a.yellow:hover {background-color: #FFFF19; color: #333333 !important;}
 
 
-.bar a.red.selected {border-top: 5px solid #f05750}
-.bar a.red:hover {border-top: 5px solid #f05750}
-.bar a.orange.selected {border-top:5px solid #f09141}
-.bar a.orange:hover {border-top: 5px solid #f09141}
-.bar a.green.selected {border-top: 5px solid #50c850}
-.bar a.green:hover {border-top: 5px solid #50c850}
-.bar a.aqua.selected {border-top: 5px solid #64f0c1}
-.bar a.aqua:hover {border-top: 5px solid #64f0c1}
-.bar a.cyan.selected{border-top: 5px solid #64baf0}
-.bar a.cyan:hover {border-top: 5px solid #64baf0}
-.bar a.blue.selected {border-top: 5px solid #6478e6}
-.bar a.blue:hover {border-top: 5px solid #6478e6}
-.bar a.purple.selected {border-top: 5px solid #b464dc}
-.bar a.purple:hover {border-top: 5px solid #b464dc}
-.bar a.yellow.selected {border-top: 5px solid #FFFF19}
-.bar a.yellow:hover {border-top: 5px solid #FFFF19}
-.bar a.pink.selected {border-top: 5px solid #f06495}
-.bar a.pink:hover {border-top: 5px solid #f06495}
-
+.bar a.red.selected {background-color: #E90079;}
+.bar a.red:hover {background-color: #E90079;}
+.bar a.orange.selected {background-color: #f09141;}
+.bar a.orange:hover {background-color: #f09141;}
+.bar a.green.selected {background-color: #50c850;}
+.bar a.green:hover {background-color: #50c850;}
+.bar a.aqua.selected {background-color: #64f0c1;}
+.bar a.aqua:hover {background-color: #64f0c1;}
+.bar a.cyan.selected{background-color: #64baf0;}
+.bar a.cyan:hover {background-color: #64baf0;}
+.bar a.blue.selected {background-color: #6478e6;}
+.bar a.blue:hover {background-color: #6478e6;}
+.bar a.purple.selected {background-color: #b464dc;}
+.bar a.purple:hover {background-color: #b464dc;}
+.bar a.yellow.selected {background-color: #FFFF19; color: #333333 !important;}
+.bar a.yellow:hover {background-color: #FFFF19; color: #333333 !important;}
+.bar a.pink.selected {background-color: #f06495;}
+.bar a.pink:hover {background-color: #f06495;}
+/*
 #logo {
     height: 40px;
     margin: 7px 2px 8px 15px;
     float: left;
-}
+}*/
 
 #coursenum {
     line-height: 75px;
-    font-family: 'VT323';
-    font-size: 20px;
+    font-size: 3em;
+    color: white;
+    margin-left: 15px;
 }
 
 div.menu.bar {
     height: 50px;
     float: right;
-    margin-right: 15px;
 }
 
 a.menu {
-    line-height: 50px;
-    color: #333333;
-    font-size: 14px;
+    line-height: 65px;
+    color: #cccccc;
+    font-size: 16px;
 	text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     -moz-transition: background-color 200ms linear;
     -webkit-transition: background-color 200ms linear;
     -o-transition: background-color 200ms linear;
@@ -127,23 +131,29 @@ a.menu {
     transition: background-color 200ms linear;
 }
 
+.bar a.menu:hover, .dropdown a.menu:hover, .bar a.menu.selected, .dropdown a.menu.selected {
+	color: white;
+}
+
 div.menu.bar a.menu {
-    display: inline-block;
+    display: block;
     text-align: center;
-    margin: 0 -2px;
-    padding: 0 10px;
+    margin: 0;
+	padding: 5px 12px;
+	float: left;
 }
 
 .icon {
-    line-height: 50px;
-    font-size: 25px;
+    line-height: 65px;
+    font-size: 45px;
     float: right;
     margin-right: 15px;
     cursor: pointer;
+    color: white;
 }
 
 .icon:hover {
-    color:#f05750;
+    color:#E90079;
 }
 
 div.dropdown {
@@ -159,9 +169,8 @@ div.dropdown {
 
 div.dropdown a.menu {
     display: block;
-    padding: 0 15px;
+    padding: 5px 15px;
     height: 40px;
-    border-bottom: 1px solid #eeeeee;
     line-height: 40px;
 }
 
@@ -171,16 +180,25 @@ div.dropdown a.close {
 }
 
 div.dropdown a.close:hover {
-    color: #f05750;
+    color: #E90079;
 }
 
 @media only screen and (max-width: 800px) {
     a.menu {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
 @media only screen and (max-width: 640px) {
+	td {
+		padding: 5px 0px 5px 0px !important;
+	}
+	table.striped td, table.striped th, table.lectures td, table.lectures th {
+		font-size: 0.8em;
+	}
+	a.menu {
+		color: #333333;
+	}
     .bar {
         display: none;
     }
@@ -260,7 +278,7 @@ table.projects{
 	margin-bottom:2em;
 }
 
-th.assignmetns{
+th.assignments{
 	border-width:0px;
 	padding: 10px 15px;
 	padding-left: 5px;
@@ -270,7 +288,7 @@ th.assignmetns{
 
 caption.projects{
 	font-size:100%;
-	color:#f05750;
+	color:#E90079;
 	text-align:left;
 	font-size:140%;
 	text-align: center;
@@ -336,14 +354,14 @@ th {
 	text-align: left;
 }
 table.striped tr:nth-child(even) {
-	background-color: #fac8c5;
+	background-color: #EBD0E1;
 }
 table.striped tr:nth-child(odd) {
-	background-color: #fef5f4; 
+	background-color: #FFE7FB; 
 }
 table.striped tr:first-child,
 table.lectures tr:first-child {
-	background-color: #7fb3f4;
+	background-color: #8C3FD3;
 }
 table.striped,
 table.lectures {
@@ -373,14 +391,14 @@ table.striped td:first-child {
 a {
 	text-decoration: none;
     font-weight: 400;
-	color: #7fb3f4;
+	color: #6A1FBB;
 }
 a:hover {
 	color: #5097f0;
     font-weight: 600;
 }
 .box {
-	border: 2px solid #f05750;
+	border: 2px solid #E90079;
 	padding: 15px !important;
 }
 
@@ -394,27 +412,21 @@ a:hover {
 	margin: 0 auto;
 }
 .lectures tr:nth-child(6n+4) {
-	background-color: #fac8c5;
+	background-color: #EBD0E1;
 }
 .lectures tr:nth-child(6n+5) {
-	background-color: #fac8c5;
+	background-color: #EBD0E1;
 }
 .lectures tr:nth-child(6n+6) {
-	background-color: #fac8c5;
+	background-color: #EBD0E1;
 }
-.lectures tr:nth-child(6n+1) {
-	background-color: #fef5f4;
-}
-.lectures tr:nth-child(6n+2) {
-	background-color: #fef5f4;
-}
-.lectures tr:nth-child(6n+3) {
-	background-color: #fef5f4;
+.lectures tr:nth-child(6n+1), .lectures tr:nth-child(6n+2), .lectures tr:nth-child(6n+3) {
+	background-color: #FFE7FB;
 }
 
 
 table.hours tr:first-child {
-	background-color: #7fb3f4;
+	background-color: #8C3FD3;
 }
 table.hours th {
 	color: white;
@@ -422,13 +434,13 @@ table.hours th {
 	text-decoration:none;
 }
 table.hours tr td:nth-child(even) {
-	background-color: #fac8c5;
+	background-color: #EBD0E1;
 }
 table.hours tr td:nth-child(odd) {
-	background-color: #f69b96;
+	background-color: #FFE7FB;
 }
 table.hours tr td:first-child {
-	background-color: #7fb3f4;
+	background-color: #8C3FD3;
 	color: white;
 	font-weight: bold;
 	text-align:center;
@@ -443,13 +455,13 @@ p.code {
 b.script {
         margin: 0;
         font-weight: 700;
-        color: #f05750;
+        color: #E90079;
 }
 table.staff-pics {
         text-align: center;
 }
 .staff-pics caption {
-        background-color: #7fb3f4;
+        background-color: #8C3FD3;
         color: white;
 }
 .staff-pics img {
@@ -475,7 +487,6 @@ iframe {
     margin:0;
 }
 
-font-family: 'Open Sans', serif;
-font-family: 'VT323', serif;
+font-family: 'Open Sans', sans-serif;
 
 

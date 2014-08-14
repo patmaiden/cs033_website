@@ -21,12 +21,12 @@ $(document).ready(function(){
             $(".dropdown").hide();
         });
     });
-
+    var frm = document.getElementById('ifrm');
     $(window).resize(function() {
-        document.getElementById('ifrm').style.height = $(document).height() - 120 + 'px';
+        if (frm) frm.style.height = $(document).height() - 120 + 'px';
     });
 
-    document.getElementById('ifrm').style.height = $(document).height() - 120 + 'px';
+    if (frm) frm.style.height = $(document).height() - 120 + 'px';
 	
 });
 

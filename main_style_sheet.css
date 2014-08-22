@@ -397,6 +397,12 @@ a:hover {
 	color: #5097f0;
     font-weight: 600;
 }
+a.disabled{
+   pointer-events: none;
+   cursor: default;
+   color: #000000;
+
+}
 .box {
 	border: 2px solid #E90079;
 	padding: 15px !important;

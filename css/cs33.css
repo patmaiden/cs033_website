@@ -152,6 +152,11 @@ td, th {
     table.ta-hours td:nth-of-type(7):before { content: "Friday"; }
     table.ta-hours td:nth-of-type(8):before { content: "Saturday"; }
 
+		/* Gear up table */
+		table.gear-up td:nth-of-type(1):before { content: "Date"; }
+		table.gear-up td:nth-of-type(2):before { content: "Topic"; }
+		table.gear-up td:nth-of-type(3):before { content: "Slides"; }
+
     /* Makes sure empty cells won't have labels */
     table td:empty { display: none; }
 }
